@@ -1,0 +1,29 @@
+.landing-page {
+  background-image: url('https://cdn.pixabay.com/photo/2015/12/01/20/28/green-1072828_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.landing-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.get-started-button {
+  background-color: #4CAF50;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
